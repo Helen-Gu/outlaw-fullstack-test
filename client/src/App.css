@@ -1,0 +1,67 @@
+.container {
+	padding: 0 10%;
+}
+
+.btn {
+	display: inline-block;
+	border: none;
+	background: #555;
+	color: #fff;
+	padding: 7px 20px;
+	cursor: pointer;
+}
+
+.form-inline {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.form-inline label {
+	margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+	vertical-align: middle;
+	margin: 5px 10px 5px 0;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+#title {
+	text-align: center;
+	font-family: arial, sans-serif;
+}
+
+#deals {
+	background-color: white;
+	text-align: center;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	border: 3px solid #ddd;
+	width: 100%;
+}
+
+#deals td,
+#deals th {
+	/* border: 1px solid #ddd; */
+	padding: 8px;
+}
+
+#deals tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#deals tr:hover {
+	background-color: #ddd;
+}
+
+#deals th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+}
+
+.error {
+	color: red;
+}
